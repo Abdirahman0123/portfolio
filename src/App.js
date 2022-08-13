@@ -1,5 +1,5 @@
 import './App.css'
-import { Profile, Education, Skills, /*Picture*/ } from './components'
+import { Profile, Education, Skills} from './components'
 
 function App() {
   return (<div style={{ textAlign: "center" }} >
