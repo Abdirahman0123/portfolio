@@ -1,8 +1,8 @@
 import React from 'react'
 export const Profile = () => {
     return (<div /*style={{color: "red", textAlign: 'justify'}}*/> 
-    <h4> Profile </h4>
-    <p className='text-base sm:text-xl text-center text-gray-600 leading-relaxed mt-4'>My name is Abdirahman Awale, I am a student at London Met 
+    <h3> Profile </h3>
+    <p style={{width: '600px', marginLeft: '500px', textAlign:'justify'}}> My name is Abdirahman Awale, I am a student at London Met 
       starting 3rd year in Computing. I am in interested in becoming Software engineer 
       as Java developer when I graduate. After a few years in this field, I want to 
       move to mobile app development. My original career goal was to 
