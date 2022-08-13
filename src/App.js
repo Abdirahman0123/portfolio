@@ -1,25 +1,30 @@
 import './App.css'
-import { Header , Profile, Education } from './components'
-//import { } from './components'
-//import { Education } from './components'
-
+import { Profile, Education, Skills, /*Picture*/ } from './components'
 
 function App() {
   return (<div >
-        <h1> Hi </h1>
+
+    
+    <img src={'/picture/me.jpg'} alt="Logo" />
+    
+
+    <h1 style={{color: "red"}}>Welcome</h1>
+
+    
 
     <div>
-      <Header />
-    </div>
-
-    <div>
-    <h4> Profile </h4>
+      <h4> Profile </h4>
       <Profile />
     </div>
 
     <div>
       <h4> Education </h4>
-      <Education/>
+      <Education />
+    </div>
+
+    <div>
+      <h4> Skills </h4>
+      <Skills/>
     </div>
 
   </div>
