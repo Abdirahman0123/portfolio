@@ -3,7 +3,7 @@ export const Skills = () => {
     return (  
         <s>
         <li>Java</li>
-        <li>SQL</li>
+        <li>SQL (Oracle)</li>
         <li>XML</li>
     </s>
 

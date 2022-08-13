@@ -2,24 +2,26 @@ import './App.css'
 import { Profile, Education, Skills, /*Picture*/ } from './components'
 
 function App() {
-  return (<div >
+  return (<div style={{ textAlign:"center"}} >
 
     
-    <img src={'/picture/me.jpg'} alt="Logo" />
+    <img src={'/picture/me.jpg'} alt="Logo" class="center"/>
     
 
-    <h1 style={{color: "red"}}>Welcome</h1>
+    <h1 style={{color: "red", textAlign:"center"}}>Welcome</h1>
 
     
 
     <div>
-      <h4> Profile </h4>
+      
+      <pro>
       <Profile />
+      </pro>
     </div>
 
-    <div>
-      <h4> Education </h4>
-      <Education />
+    <div >
+      
+      <Education  />
     </div>
 
     <div>

@@ -1,12 +1,35 @@
-img {
+/*img {
   height: 300px;
+  border-radius: 8px;
+  position: center;
+  width: auto;
+}*/
+
+.pro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: auto;
 }
 
 .div {
-text-align: center;
+  text-align: center;
 
 
 }
+
 .App {
   text-align: center;
 }
