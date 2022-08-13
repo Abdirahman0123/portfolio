@@ -1,16 +1,28 @@
 import './App.css'
-import { Header } from './components'
+import { Header , Profile, Education } from './components'
+//import { } from './components'
+//import { Education } from './components'
 
-import me from './me.jpg';
+
 function App() {
-  return (< div className="App" >
-    <Header name='Abdirahman'> hello <div> Portfolio Website</div> </Header>
-    <p >My name is Abdirahman Awale, I am a student at London Met starting 3rd year in Computing. I am in interested in becoming Software egineer as Java developer when
-      I graduate. After a few years, I want to move to mobile app development.
-    </p>
+  return (<div >
+        <h1> Hi </h1>
+
+    <div>
+      <Header />
+    </div>
+
+    <div>
+    <h4> Profile </h4>
+      <Profile />
+    </div>
+
+    <div>
+      <h4> Education </h4>
+      <Education/>
+    </div>
 
   </div>
-
-  );
-}
+  )
+};
 export default App;
