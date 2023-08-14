@@ -20,7 +20,9 @@ function App() {
       <Education />
       <Skills />
     </div>
-
+    <div>
+      
+    </div>
   </div>
   </center>
   )

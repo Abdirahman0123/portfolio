@@ -10,24 +10,18 @@ export const Profile = () => {
     }}>
       
       <h3 > Profile </h3>
-      
+      <h5>Abdirahman Awale</h5>
       <p style={{
         textAlign: "justify", width: '900px'     
-
       }}
-      > My name is Abdirahman Awale, I am a student at London Met
-        starting 3rd year in Computing. I am in interested in becoming Software engineer
-        as Java developer when I graduate. After a few years in this field, I want to
-        move to mobile app development. My original career goal was to
-        be Database Administrator. When I started university, I realised
-        having coding skills is crucial. Therefore, I put more effort on learning Java.
-        As time went by, I become more inclined towards coding and switched my career to
-        Software Engineer. I have not abandoned my passion for database because a
-        professional Software Engineer must be able to work with relevant technologies including DBMSs
+      > I am a recent graduate in BSc Computing (First Class degree) with three months’ relevant experience as a front-end developer (React). 
+      Through this experience, I learnt how to work independently and be a team player. 
+      During my time at university, I gained time management, problem-solving, multitasking and planning skills 
+      as sometimes courseworks were due at the same time with their exam I learnt how to stay motivated when I face challenges. 
+      I am seeking a graduate backend role using Java/C# but also willing to learn new languages, frameworks and technologies required for the role.
       </p>
     </div>
   </div>
-
   )
 }
-// style={{width: '600px', /*marginLeft: '500px',*/ textAlign:'justify'}}
+
