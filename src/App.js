@@ -1,28 +1,31 @@
+
+import React from 'react'
 import './App.css'
 import { Profile, Education, Skills} from './components'
 
 function App() {
-  return (<div style={{ textAlign: "center" }} >
+  return ( <center class="whole" >
+    <div >
 
+    <div class="myPic">
+    <img src={'/picture/me.jpg'} alt="Logo" class="center hover:scale-20"  />
+    </div>
+    <h1 style={{ color: "Teal" }}>Welcome</h1>
 
-    <img src={'/picture/me.jpg'} alt="Logo" class="center" />
-
-
-    <h1 style={{ color: "red", textAlign: "center" }}>Welcome</h1>
-
-    <div>
+    <div class="myProfile">
       <Profile />
     </div>
 
-    <div >
+    <div class = "ES">
       <Education />
-    </div>
-
-    <div>
       <Skills />
     </div>
 
   </div>
+  </center>
   )
 };
 export default App;
+//<h1 style={{ color: "red", textAlign: "center" }}>Welcome</h1>
+// <Skills/>
+// <div class = "ES">

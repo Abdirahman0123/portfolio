@@ -4,4 +4,32 @@ img {
   margin-right: auto;
   height: 300px;
   width: auto;
+  border-radius: 50%;
+}
+
+
+.ES{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+  
+}
+
+
+/*.whole {
+background-color: azure;
+}*/
+
+.myProfile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+.myPic:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
