@@ -12,8 +12,8 @@ export const Education = () => {
 
         <div>
         <p style={{ textAlign:"justfiy", fontsize: "25px"}} >
-        <li style={{listStyle: "circle"}}> London Metropolitan University-Computing (2020-present)</li>
-        <li style={{listStyle: "circle"}} >City & Islington College- English(4), Maths(c), Access to Higher Education(M) (2016-2020)</li> 
+        <li style={{listStyle: "circle"}}> London Metropolitan University BSc Hons Computing (1st), 2020-2023</li>
+        <li style={{listStyle: "circle"}}> City & Islington College- English(4), Maths(c), Access to Higher Education(M) (2016-2020)</li> 
         </p>
         </div>
         </div>
